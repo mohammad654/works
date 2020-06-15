@@ -4,6 +4,37 @@ body{
     perspective: 1000px;
 }
 
+/*___________________________________ Start Setting __________________________________________________*/
+
+.setting{
+    z-index: 11112;
+    width: 180px;
+    min-height: 100vh;
+    position:fixed;
+    background-color:var(--main-bg-color);
+    opacity: 0.5;
+    top: 0;
+    left:-180px;
+    transition: all 3s;
+}
+ .open{
+    left:0;
+     transition: all 3s;
+}
+.setting .toggle{
+    position: absolute;
+    background-color:#f0f0f0;
+    color: var(--main-bg-color);
+    right: -47px;
+    top: 110px;
+    cursor: pointer;
+    font-size: 40px;
+}
+.fa-gear{
+    padding: 7px ;
+
+}
+/*___________________________________ EndSetting  _________________________________________________*/
 
 /*___________________________________ Start landing  __________________________________________________*/
 

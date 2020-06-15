@@ -1,7 +1,14 @@
 
 // console.log("JavaScript");
 
-// Landing
+
+// Setting _______________________________________
+document.querySelector('.toggle .fa-gear').onclick=function(){
+    document.querySelector(".setting").classList.toggle("open")
+    this.classList.toggle("fa-spin");
+};
+
+// Landing____________________________
 
 let landing = document.querySelector(".landing");
 
@@ -15,9 +22,9 @@ let array = [
 setInterval(function () {
     let random=Math.floor(Math.random()*array.length);
     landing.style.backgroundImage='url('+array[random]+')';
-},5000);
+},10000);
 
-
+// carouse_______________________________________
 $('.carousel').carousel({
     interval: 10000
 });
