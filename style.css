@@ -1,0 +1,127 @@
+
+body{
+    background: #ff443d;
+    perspective: 1000px;
+}
+
+
+/*___________________________________ Start landing  __________________________________________________*/
+
+.landing{
+    min-height: 100vh;
+    background-image: url("./img/landscape-3369360_1920.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.landing .overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+    left: 0;
+    top:0;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+ .header{
+    z-index: 2;
+    position: relative;
+    color: var(--text-color);
+    display: flex;
+     padding: 12px;
+}
+.header .logo{
+    width: 320px;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 5px 20px;
+}
+.header .links{
+    text-align: right;
+    list-style: none;
+    width: 100%;
+    padding-right: 30px;
+    padding-top: 20px;
+    font-size: 12px;
+}
+.header .links li {
+    display: inline-block;
+    padding-left: 20px;
+}
+.header .links li a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 14px;
+}
+.header .links li a:hover,
+.header .links li a.active{
+    color: var(--hover-color);
+}
+
+.text{
+    color: var(--text-color);
+    top: 50%;
+    left:50%;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+.text h1{
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: var(--artick-color);
+}
+.text p{
+    font-size: 12px;
+    line-height: 30px;
+}
+.text span{
+    font-size:25px;
+    color: var(--artick-color);
+}
+.carousel-indicators{
+    margin-bottom: -53px;
+}
+.carousel-control-next, .carousel-control-prev {
+    top: 64%;
+    width: 80%;
+}
+.carousel-control-next:hover, .carousel-control-prev:hover{
+    color: var(--hover-color);
+}
+.carousel-control-next{
+   left:70%;
+}
+.carousel-control-prev {
+    left:-55%;
+}
+.carousel-indicators li{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    transition:all 0.8s  ;
+}
+.carousel-indicators li:hover{
+    width: 25px;
+    height: 25px;
+    transform: translateY(5px);
+    background-color: var(--hover-color);
+}
+    /*___________________________________ End landing  _________________________________________________*/
+
+
+
+
+/*___________________________________ Start __________________________________________________*/
+
+/*___________________________________ End  _________________________________________________*/
+:root {
+    --main-bg-color: coral;
+    --text-color: white;
+    --hover-color: #61fcff;
+    --artick-color: #39ff0a;
+
+
+}
