@@ -11,7 +11,7 @@ body{
     width: 180px;
     min-height: 100vh;
     position:fixed;
-    background-color:var(--main-bg-color);
+    background-color: #dfe8f6;
     opacity: 0.5;
     top: 0;
     left:-180px;
@@ -23,9 +23,8 @@ body{
 }
 .setting .toggle{
     position: absolute;
-    background-color:#f0f0f0;
-    color: var(--main-bg-color);
-    right: -47px;
+    color: var(--article-color);
+    right: -45px;
     top: 110px;
     cursor: pointer;
     font-size: 40px;
@@ -34,7 +33,57 @@ body{
     padding: 7px ;
 
 }
-/*___________________________________ EndSetting  _________________________________________________*/
+.setting .options{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.setting .options .options_list{
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+    margin-left: -23px;
+}
+.setting .options li{
+    width: 17px;
+    height: 17px;
+    opacity: .5;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color:#4e555b;
+    display: inline-block;
+    padding: 10px;
+}
+.setting .options li.active{
+    opacity: 1;
+}
+.setting .options li:first-child{
+    background-color:  #39ff0a;
+}
+.setting .options li:nth-child(2){
+    background-color: #24720c;
+}
+.setting .options li:nth-child(3){
+    background-color: #69fffc ;
+}
+.setting .options li:nth-child(4){
+    background-color: #982c06 ;
+}
+.setting .options li:nth-child(5){
+    background-color: #61fcff;
+}
+.setting .options li:nth-child(6){
+    background-color:#ffff99 ;
+}
+
+.setting .options h5{
+     color: var(--article-color);
+     opacity: 1;
+     z-index: 222222;
+ }
+/*___________________________________ End Setting  _________________________________________________*/
+
+
 
 /*___________________________________ Start landing  __________________________________________________*/
 
@@ -62,12 +111,6 @@ body{
     display: flex;
      padding: 12px;
 }
-.header .logo{
-    width: 320px;
-    font-weight: bold;
-    font-size: 30px;
-    padding: 5px 20px;
-}
 .header .links{
     text-align: right;
     list-style: none;
@@ -87,7 +130,7 @@ body{
 }
 .header .links li a:hover,
 .header .links li a.active{
-    color: var(--hover-color);
+    color: var(--article-color);
 }
 
 .text{
@@ -102,7 +145,7 @@ body{
 .text h1{
     margin-bottom: 10px;
     font-size: 40px;
-    color: var(--artick-color);
+    color: var(--article-color);
 }
 .text p{
     font-size: 12px;
@@ -110,17 +153,17 @@ body{
 }
 .text span{
     font-size:25px;
-    color: var(--artick-color);
+    color: var(--article-color);
 }
 .carousel-indicators{
-    margin-bottom: -53px;
+    margin-bottom: -83px;
 }
 .carousel-control-next, .carousel-control-prev {
     top: 64%;
     width: 80%;
 }
 .carousel-control-next:hover, .carousel-control-prev:hover{
-    color: var(--hover-color);
+    color: var(--article-color);
 }
 .carousel-control-next{
    left:70%;
@@ -132,15 +175,127 @@ body{
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    transition:all 0.8s  ;
+    transition:all 0.4s  ;
 }
 .carousel-indicators li:hover{
-    width: 25px;
-    height: 25px;
-    transform: translateY(5px);
+    width: 22px;
+    height: 22px;
+    transform: translateY(2px);
     background-color: var(--hover-color);
 }
-    /*___________________________________ End landing  _________________________________________________*/
+/*___________________________________ End landing  _________________________________________________*/
+
+
+/*___________________________________ Start loader _________________________________________________*/
+
+ .container-loader{
+    background-color: white;
+    background-size: 100% ;
+    padding-top:10px ;
+
+}
+.container-loader .row{
+    padding-top: 10px;
+}
+.loader{
+    perspective: 800px;
+    transform-style:preserve-3d;
+    position: relative;
+    transform: rotateX(80deg);
+    width: 70px;
+    height: 70px;
+
+}
+.loader span{
+    border-radius: 50%;
+    position: absolute;
+    display: block;
+    animation: animated 8s ease-in-out 2;
+}
+@keyframes animated {
+    0%,100%{
+        transform: translateZ(-20px);
+        border: 2px solid var(--loader-color);
+    }
+    50%{
+        transform: translateZ(20px);
+        border: 2px solid #69fffc;
+    }
+
+}
+.loader span:nth-child(1){
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    animation-delay: 2.8s ;
+}
+.loader span:nth-child(2){
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    animation-delay: 2.2s ;
+}
+.loader span:nth-child(3){
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    animation-delay: 1.8s ;
+}
+.loader span:nth-child(4){
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    animation-delay: 1.2s ;
+}
+.loader span:nth-child(5){
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    animation-delay: 0.6s ;
+}
+.loader span:nth-child(6){
+    top: 25px;
+    left: 25px;
+    right: 25px;
+    bottom: 25px;
+    animation-delay: 0.2s ;
+}
+.loader span:nth-child(7){
+    top: 30px;
+    left: 30px;
+    right: 30px;
+    bottom: 30px;
+    animation-delay: 0s ;
+}
+/*___________________________________ End loader  __________________________________________________*/
+.active_color{
+    background-color: #666;
+    color: white;
+    border: 2px solid red;
+}
+
+/*___________________________________ Start __________________________________________________*/
+.certificates{
+    background-color: #24720c;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline-block;
+}
+/*___________________________________ End  _________________________________________________*/
+
 
 
 
@@ -152,7 +307,8 @@ body{
     --main-bg-color: coral;
     --text-color: white;
     --hover-color: #61fcff;
-    --artick-color: #39ff0a;
+    --article-color: #39ff0a;
+    --loader-color: #416649;
 
 
 }
