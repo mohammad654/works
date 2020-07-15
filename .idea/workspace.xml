@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23adfc0f-2bd9-40a8-bd41-61bbb4441737" name="Default Changelist" comment="" />
+    <list default="true" id="23adfc0f-2bd9-40a8-bd41-61bbb4441737" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Certificates.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tag/JacaScript Tags" beforeDir="false" afterPath="$PROJECT_DIR$/Tag/JacaScript Tags" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +24,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -28,11 +36,13 @@
   <component name="ProjectId" id="1aHDvljIrsDVd9eAHd1IjSTMnAj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RunDashboard">
@@ -95,6 +105,27 @@
       <workItem from="1592163649513" duration="14062000" />
       <workItem from="1592181076460" duration="2910000" />
       <workItem from="1592212255298" duration="894000" />
+      <workItem from="1592411717852" duration="5988000" />
+      <workItem from="1592425840737" duration="184000" />
+      <workItem from="1592592260122" duration="4152000" />
+      <workItem from="1592616411700" duration="1148000" />
+      <workItem from="1592674984512" duration="241000" />
+      <workItem from="1592701141813" duration="413000" />
+      <workItem from="1592701574904" duration="1629000" />
+      <workItem from="1592756013001" duration="4495000" />
+      <workItem from="1592825482098" duration="6502000" />
+      <workItem from="1592836777171" duration="1438000" />
+      <workItem from="1592852714484" duration="13234000" />
+      <workItem from="1592871522833" duration="562000" />
+      <workItem from="1592872270692" duration="3684000" />
+      <workItem from="1592937178262" duration="10014000" />
+      <workItem from="1593131555078" duration="64000" />
+      <workItem from="1593347074797" duration="14980000" />
+      <workItem from="1593513772034" duration="5124000" />
+      <workItem from="1593533856530" duration="240000" />
+      <workItem from="1593550068817" duration="753000" />
+      <workItem from="1594646530698" duration="2201000" />
+      <workItem from="1594673578483" duration="669000" />
     </task>
     <servers />
   </component>
