@@ -2,13 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23adfc0f-2bd9-40a8-bd41-61bbb4441737" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Certificates.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/inloggen.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/mo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/registreren.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Certificates.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Certificates/CertificateOfCompletion_Bootstrap 4 Essential Training.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Certificates/CertificateOfCompletion_Building Responsive Forms with Flexbox.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Certificates/CertificateOfCompletion_CSS Layouts_ From Float to Flexbox and Grid.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Certificates/CertificateOfCompletion_CSS_ Animation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Certificates/CertificateOfCompletion_CSS_ Visual Optimization.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Certificates/CertificateOfCompletion_Creating an HTML Email Newsletter.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Certificates/CertificateOfCompletion_Css Essential Training 3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Certificates/CertificateOfCompletion_Git Essential Training The Basics.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Certificates/CertificateOfCompletion_Html Essential Training.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Certificates/CertificateOfCompletion_Improving Your Listening Skills (1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Certificates/CertificateOfCompletion_Improving Your Listening Skills.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Certificates/CertificateOfCompletion_Introduction to Web Design and Development.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Certificates/CertificateOfCompletion_JavaScript_ Classes.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Certificates/CertificateOfCompletion_JavaScript_ Enhancing the DOM.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Certificates/CertificateOfCompletion_JavaScript_ Scope.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Certificates/CertificateOfCompletion_Learning Responsive Web Design in the Browser.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Certificates/CertificateOfCompletion_Learning the JavaScript Language.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Certificates/CertificateOfCompletion_Responsive Images.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Certificates/CertificateOfCompletion_Vanilla JavaScript_ Animations.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Tag/JacaScript Tags" beforeDir="false" afterPath="$PROJECT_DIR$/Tag/JacaScript Tags" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/NUN-3FB-h08-L02-S02-d01.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/alex-ware-8k0Ol9aYtjs-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/arrow-29170_640.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/beaded-2137080_1920.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/field-of-rapeseeds-4910374_1920.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/field-of-rapeseeds-4969567_1920.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iconfinder_php_282805.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/landscape-3369360_1920.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/mo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sea-1337565_1920.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sven-brandsma-5FmI4_iFVQk-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tulips-1375821_1920.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tulips-21690_1920.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/verena.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wintry-3758523_1920.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/try.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,17 +54,32 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/project1/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -126,6 +179,27 @@
       <workItem from="1593550068817" duration="753000" />
       <workItem from="1594646530698" duration="2201000" />
       <workItem from="1594673578483" duration="669000" />
+      <workItem from="1594813711320" duration="721000" />
+      <workItem from="1594912875522" duration="14000" />
+      <workItem from="1595526802522" duration="626000" />
+      <workItem from="1595529026171" duration="10000" />
+      <workItem from="1596665693791" duration="1342000" />
+      <workItem from="1596709311973" duration="644000" />
+      <workItem from="1596713558389" duration="24000" />
+      <workItem from="1596796227114" duration="14664000" />
+      <workItem from="1596832193058" duration="5229000" />
+      <workItem from="1596847001153" duration="3354000" />
+      <workItem from="1596886325711" duration="16000" />
+      <workItem from="1601640005296" duration="15329000" />
+      <workItem from="1601723559385" duration="178000" />
+      <workItem from="1603936377960" duration="14081000" />
+      <workItem from="1603955543009" duration="5750000" />
+      <workItem from="1604097219640" duration="3655000" />
+      <workItem from="1604104319186" duration="1552000" />
+      <workItem from="1604167572523" duration="2551000" />
+      <workItem from="1604233074350" duration="1799000" />
+      <workItem from="1605572453331" duration="2129000" />
+      <workItem from="1605700174295" duration="277000" />
     </task>
     <servers />
   </component>

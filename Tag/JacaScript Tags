@@ -29,6 +29,21 @@ event propagation
 capturing bubbling
 
 
+
+
+
+    let animate=document.getElementById("animate");
+    let lis=document.querySelector("#list");
+
+    lis.addEventListener("click",(e) =>{
+        var  removeTarget=e.target;
+        if (e.target.tagName==="LI"){
+            removeTarget.parentNode.removeChild(removeTarget);
+            console.log(removeTarget);
+            console.log('YES');
+        }
+    },false);
+
 ?????????????????????
   rotatingSquare.animate()
   toElement
